@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.hidden-menu {
+    background-color: white;
+    position: fixed;
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    display: none;
+    align-items: center;
+
+}
+
+.hidden-menu-item:hover {
+    cursor: pointer;
+}
+
+
+.close-button {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+
+}
+
+.close-button:hover {
+    cursor: pointer;
+    background-color: hsl(5, 85%, 63%);
+    scale: 1.25;
+    padding: 10px;
+    border-radius: 2rem;
+    transition-duration: 500ms;
+
+
+}
+
+.hidden-menu-item {
+    padding: 0;
+    display: none;
+}
+
+
+/* .hidden-menu {
+    display: flex;
+}
+
+.menu {
+    display: none;
+}
+
+.close-button {
+    display: inline;
+} */
+
+
+
+.menu-item-hidden {
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3.5rem;
+    font-weight: 800;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h3:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+h4 {
+    margin: 0.75rem 0;
+    font-size: 1.5rem;
+}
+
+h4:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 12.5%;
+}
+
+li {
+    display: inline;
+}
+
+header {
+    padding: 2.5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+img[src='assets/images/image-web-3-desktop.jpg'] {
+    width: 100%;
+    height: 65%;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content-left {
+    width: 63.5%;
+}
+
+.main-content-right {
+    width: 33.5%;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(240, 100%, 5%);
+    font-size: 1.2rem;
+}
+
+.main-content-right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.main-content-right h2 {
+    padding: 5% 5% 0 5%;
+}
+
+.main-content-right-item {
+    padding: 10% 0;
+    border-bottom: 1px solid white;
+    width: 90%;
+    margin: 0 5%;
+    color: hsl(233, 8%, 79%);
+    font-size: 1.4rem;
+
+}
+
+.main-content-right-item:last-of-type {
+    border-bottom: none;
+}
+
+
+.bottom-section {
+    margin: 4rem 0;
+    display: flex;
+}
+
+
+.bottom-item {
+    display: flex;
+
+}
+
+.bottom-item img {
+    height: 55%;
+}
+
+
+.under-image {
+    display: flex;
+}
+
+.logo {
+    padding: 1rem 0;
+}
+
+.menu {
+    position: sticky;
+}
+
+.menu-item {
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+}
+
+
+a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+#menu-last {
+    padding-right: 0;
+}
+
+.main-heading {
+    width: 40%;
+    margin: 1.5rem 1rem 0 0;
+}
+
+.aside-text {
+    width: 50%;
+    color: hsl(236, 13%, 42%);
+    margin: 1.5rem 0;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    padding-left: 6%;
+
+}
+
+
+#button {
+    display: flex;
+    margin-top: 5%;
+}
+
+button {
+    background-color: hsl(5, 85%, 63%);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 1rem 2.5rem;
+    align-self: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-weight: 700;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#img-mobile {
+    display: none;
+    width: 100%;
+    height: 65%;
+}
+
+#menu-hidden {
+    display: none;
+
+}
+
+.number {
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.bottom-description {
+    padding: 0 0 1rem 1rem;
+    font-size: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+@media (max-width: 1800px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .aside-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1600px) {
+    h4 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1360px) {
+    main {
+        margin: 0 7.5%;
+    }
+
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media (max-width: 1260px) {
+    .bottom-description {
+        font-size: 0.8rem;
+    }
+
+    .menu-item {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 1020px) {
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-item {
+        display: flex;
+        padding: 1rem;
+
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    .bottom-item img {
+        height: 8rem;
+    }
+
+    .menu-item {
+        font-size: 1rem;
+    }
+
+    #img-desktop {
+        display: none;
+    }
+
+    #img-mobile {
+        display: block;
+
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .hidden-menu-item {
+        display: flex;
+        margin-top: 1.25rem;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+    main {
+        margin: 0 2.5%;
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #menu-hidden {
+        display: inline-block;
+        height: 50%;
+        padding: 0.5rem 0;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .bottom-description {
+        margin-left: 1rem;
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-item {
+        width: 100%;
+    }
+
+
+    .main-content-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .under-image {
+        margin: 2rem 0;
+    }
+
+    .under-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .main-heading {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    .number {
+        font-size: 1.8rem;
+    }
+
+    .description-text {
+        font-size: 1rem;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-content-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 560px) {
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .number {
+        font-size: 1rem;
+    }
+
+    .description-text {
+        font-size: 0.9rem;
+    }
+
+    .bottom-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .description-text {
+        font-size: 0.8rem;
+    }
+}
